@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+@font-face {
+    font-family: "Zuume Cut Bold";
+    src: url('./fonts/zuume-cut-bold.otf') format("opentype");
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    margin: 2em 10%;
+    padding: 1em 5% 2em 5%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #002F6C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.welcome {
+    font-family:"Zuume Cut Bold", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 60px;
+    font-style:italic;
+    margin: auto;
+    text-align: center;
+}
+
+.message {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.links {
+    background-color: #dedede;
+    border-radius: 0px 0px 15px 15px;
+    text-decoration: none;
+    color: white;
+    height: 100vh;
+    margin: -2em 10% 2em 10%;
+    padding: 2em;
+    text-align: center;
+    gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+
+.links a {
+    background-color: #dedede;
+    color: #002F6C;
+    border: 2px solid #002F6C;
+    border-radius: 7px;
+    padding: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    height: 2em;
+    width: 15em;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a:hover, .links a:active {
+    background-color: #002F6C;
+    color: white;
+}
+
+.footer {
+    padding: 1em 10% 2em 10%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #002F6C;
+    color: #f9faf8;
+    text-align: center;
+    padding: 1em;
+    font-size: 12px;
+}
